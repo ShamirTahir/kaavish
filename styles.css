@@ -133,3 +133,32 @@ html body{
 .tour-row:last-child{
     border-bottom: none;
 }
+.tour-items{
+    display: inline-block;
+    padding-right: .5em;
+
+}
+.tour-date{
+    color: gray;
+    font-weight: bold;
+    width: 11%;
+}
+.tour-city{
+    width: 24%;
+}
+.tour-place{
+    width: 42%;
+}
+.tour-button{
+    max-width: 19%;
+}
+.button-pri{
+    color:white;
+    background-color: brown;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.button-pri:hover{
+    background-color: darkred;
+}
